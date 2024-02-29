@@ -1,10 +1,23 @@
 import React from 'react';
 import './App.css';
+import './normalize.scss';
 
 function App() {
   return (
     <div className="App">
-      hello
+      <header>
+          HEADER
+      </header>
+      <main>
+        <section> SECTION </section>
+        <section> SECTION </section> 
+        <section> SECTION </section>
+        <section> SECTION </section>
+        <section> SECTION </section>
+      </main>
+      <footer>
+          FOOTER
+      </footer>
     </div>
   );
 }
